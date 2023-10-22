@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Book2Wheel</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="style-carousel.css" />
+		<link rel="stylesheet" href="style-about.css" />
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-white">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<img src="img/logo-color.png" class="img-fluid" />
+				</a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<img src="img/menu-icon.svg" alt="" srcset="" />
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Rental</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Insurance</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Login</a>
+						</li>
+						<li class="nav-item">
+							<img src="img/uk-flag.svg" id="flag" class="im" />
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<section id="about" class="py-2">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-6">
+						<h1 class="">About us</h1>
+						<p>Book2Wheel makes the process of renting or sharing 2-wheelers a breeze. We provide a secure and trustworthy platform that connects the renters and 2-wheeler owners. Our aim is to build a platform that is open to the global market. Anyone from any part of the world can share his motorbike or car with other people and earn extra income.</p>
+					</div>
+					<div class="col-lg-4 d-none d-lg-block">
+						<img id="bike-image" src="img/bike.svg" class="d-block w-100" alt="img/bike.svg" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="bike" class="py-2 d-lg-none">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xs-5">
+						<img id="bike-image" src="img/bike.svg" class="d-block w-100" alt="img/bike.svg" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="story" class="pt-2 d-lg-none">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h1>Our story</h1>
+						<p>
+							&nbsp;When Furqan Rathore, the founder of Book2Wheel, took a break from his education and moved to the Philippines for a year in 2015, he discovered a problem of mobility faced by many foreigners visiting the Philippines.<br />
+							&nbsp;During his first month, he met more than 50 interns from Denmark who were looking for a 5-months transportation solution. Furqan had one motorbike at that moment and he offered a rental proposal. Two girls accepted the offer and through word of mouth, the news about Furqan’s rental proposal started to spread. He quickly added more motorcycles in the fleet, but it was not enough for the growing demand.<br />
+							&nbsp;Therefore, he asked his friends and other motorcycle rental shops if they want to have their motorcycle rented out and make some extra money. When all of them agreed, he got the idea to make a website that connects people who wish to share their vehicle to people who would like to rent one.
+						</p>
+						<button id="readMore" onclick="readMore()">Read more</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="story2" class="pt-2 d-lg-none">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<p id="story-p2" style="display: none">&nbsp;That’s how Book2Wheel started. The first version of the website was complete in 2016, and that was the first year when Book2Wheel had its very first customers. Furqan Rathore moved back to Denmark in 2016 and won the First Danish entrepreneurship award in 2016. While studying, Furqan has started working on his business idea. Due to student visa restrictions in Denmark, Furqan could not register his company in Denmark. That had forced him to register Book2Wheel ou (Reg. code: 143444789) in Estonia in 2017.<br />&nbsp;Now Furqan has had his legal stuff covered and he expanded the idea in further cities and islands in the Philippines.<br />&nbsp;Furqan would spend each year 6 months in Denmark and 6 months in the Philippines in order to visit potential places for rentals and explain to people what Book2Wheel is. Furqan would spend each year 6 months in Denmark and 6 months in the Philippines in order to visit potential places for rentals and explain to people what Book2Wheel is.<br />&nbsp; In 2018, Book2Wheel travel and tour corporation (Reg. no. Cs201805534) was created in the Philippines to connect the local payment gateway and provide ease of booking to renters and motorbike owners. Finally, in 2019, Furqan Rathore succeeded in obtaining a startup visa in Denmark and registered Book2Wheel aps (CVR no. 40573542). It took 4 years to register the company in Denmark and get the first investments in the company.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="story3" class="d-lg-block pt-5 d-none">
+			<div class="container">
+				<div class="row pt-5 justify-content-center">
+					<div class="col-4">
+						<h1>Our story</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<img id="computer2" src="/img/computer_1.svg" alt="" />
+					</div>
+					<div class="col-lg-4">
+						&nbsp;When Furqan Rathore, the founder of Book2Wheel, took a break from his education and moved to the Philippines for a year in 2015, he discovered a problem of mobility faced by many foreigners visiting the Philippines.<br />
+						&nbsp;During his first month, he met more than 50 interns from Denmark who were looking for a 5-months transportation solution. Furqan had one motorbike at that moment and he offered a rental proposal. Two girls accepted the offer and through word of mouth, the news about Furqan’s rental proposal started to spread. He quickly added more motorcycles in the fleet, but it was not enough for the growing demand.<br />
+						&nbsp;Therefore, he asked his friends and other motorcycle rental shops if they want to have their motorcycle rented out and make some extra money. When all of them agreed, he got the idea to make a website that connects people who wish to share their vehicle to people who would like to rent one.
+					</div>
+					<div class="col-lg-4">&nbsp;That’s how Book2Wheel started. The first version of the website was complete in 2016, and that was the first year when Book2Wheel had its very first customers. Furqan Rathore moved back to Denmark in 2016 and won the First Danish entrepreneurship award in 2016. While studying, Furqan has started working on his business idea. Due to student visa restrictions in Denmark, Furqan could not register his company in Denmark. That had forced him to register Book2Wheel ou (Reg. code: 143444789) in Estonia in 2017.<br />&nbsp;Now Furqan has had his legal stuff covered and he expanded the idea in further cities and islands in the Philippines.<br />&nbsp;Furqan would spend each year 6 months in Denmark and 6 months in the Philippines in order to visit potential places for rentals and explain to people what Book2Wheel is. Furqan would spend each year 6 months in Denmark and 6 months in the Philippines in order to visit potential places for rentals and explain to people what Book2Wheel is.<br />&nbsp; In 2018, Book2Wheel travel and tour corporation (Reg. no. Cs201805534) was created in the Philippines to connect the local payment gateway and provide ease of booking to renters and motorbike owners. Finally, in 2019, Furqan Rathore succeeded in obtaining a startup visa in Denmark and registered Book2Wheel aps (CVR no. 40573542). It took 4 years to register the company in Denmark and get the first investments in the company.</div>
+				</div>
+			</div>
+		</section>
+		<section id="computer" class="py-2 d-lg-none">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<img src="/img/computer_1.svg" alt="" class="img-fluid" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="video" class="py-2">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rgUSmkOogzY" title="Book2wheel Philippines - Invest in Book2wheel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<hr class="divider" />
+		<section id="mission" class="py-2">
+			<div class="container">
+				<h2>Our Mission</h2>
+				<div class="col-12">
+					<div id="carouselExampleControls" class="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="card">
+									<div class="img-wrapper"><img src="img/customer.png" class="d-block w-100" alt="img/customer.png" /></div>
+									<div class="card-body">
+										<p class="card-text">Connect you with trustworthy rental businesses and provide you with excellent customer service.</p>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card">
+									<div class="img-wrapper"><img src="img/messages.png" class="d-block w-100" alt="img/messages.png" /></div>
+									<div class="card-body">
+										<p class="card-text">Provide the best communication and service between the supplier and the costumer.</p>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card">
+									<div class="img-wrapper"><img src="img/security.png" class="d-block w-100" alt="img/security.png" /></div>
+									<div class="card-body">
+										<p class="card-text">Provide the best communication and service between the supplier and the costumer.</p>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card">
+									<div class="img-wrapper"><img src="img/booking.png" class="d-block w-100" alt="img/booking.png" /></div>
+									<div class="card-body">
+										<p class="card-text">Provide the best market offers for two-wheeler rentals.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<button class="carousel-control carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+							<img src="img/left.svg" alt="Previous" />
+						</button>
+						<button class="carousel-control carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+							<img src="img/right.svg" alt="Next" />
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<hr class="divider" />
+		<section id="press" class="py-2">
+			<div class="container">
+				<h2>Press</h2>
+				<div class="col-12">
+					<div id="pressControls" class="carousel slide">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="card">
+									<div class="img-wrapper"><img src="img/press-image.png" class="d-block w-100" alt="img/customer.png" /></div>
+									<div class="card-body">
+										<p class="card-text">Danish Entrepreneurship Award</p>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card">
+									<div class="img-wrapper"><img src="img/press-image.png" class="d-block w-100" alt="img/customer.png" /></div>
+									<div class="card-body">
+										<p class="card-text">Danish Entrepreneurship Award</p>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card">
+									<div class="img-wrapper"><img src="img/hotshots.png" class="d-block w-100" alt="img/messages.png" /></div>
+									<div class="card-body">
+										<p class="card-text">HOTSHOTS: Meet Book2wheel</p>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card">
+									<div class="img-wrapper"><img src="img/press-image.png" class="d-block w-100" alt="img/customer.png" /></div>
+									<div class="card-body">
+										<p class="card-text">Danish Entrepreneurship Award</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="join-us">
+			<div class="container-fluid">
+				<div class="row">
+					<img src="img/join-section-1.svg" alt="" />
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container">
+				<div class="row d-lg-none justify-content-center">
+					<div class="col-11 text-center">
+						<img src="img/logo-white.png" id="logo" class="img-fluid" />
+					</div>
+					<div class="col-11 social-media text-center">
+						<a href="https://www.facebook.com">
+							<i class="fab fa-facebook"></i>
+						</a>
+						<a href="https://www.instagram.com">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<a href="https://twitter.com">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</div>
+					<div class="col-11 links d-inline-flex justify-content-between">
+						<a href="link-to-some-page.html">RENTAL</a>
+						<a href="link-to-another-page.html">COMPANY</a>
+						<a href="link-to-another-page.html">COUNTRIES</a>
+						<a href="link-to-another-page.html">CONTACT</a>
+					</div>
+				</div>
+				<div class="row d-lg-inline-flex d-none w-100">
+					<div class="col-4 links d-inline-flex justify-content-between">
+						<a href="link-to-some-page.html">RENTAL</a>
+						<a href="link-to-another-page.html">COMPANY</a>
+						<a href="link-to-another-page.html">COUNTRIES</a>
+						<a href="link-to-another-page.html">CONTACT</a>
+					</div>
+					<div class="col-4 text-center">
+						<img src="img/logo-white.png" id="logo" class="img-fluid" />
+					</div>
+					<div class="col-4 social-media text-center">
+						<a href="https://www.facebook.com">
+							<i class="fab fa-facebook"></i>
+						</a>
+						<a href="https://www.instagram.com">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<a href="https://twitter.com">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="script.js"></script>
+		<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<script src="carousel-script.js"></script>
+	</body>
+</html>

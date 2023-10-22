@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #848484;
+    background-image: url("img/Vector.png");
+    background-size: cover;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #005281;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #848484;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+hr {
+    width: calc(100% - 2rem);
+    border-top: 1px solid #F99746;
+}
+
+
+#flag {
+    height: 2rem;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+
+/* Footer */
+.links>a {
+    font-size: 1rem;
+    line-height: 200%;
+}
+
+footer p {
+    font-weight: 300;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+/* Navbar */
+.navbar {
+    border-bottom: 1px solid #84848475;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    color: #005281 !important;
+
+}
+
+
+
+/* Other */
+.container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
