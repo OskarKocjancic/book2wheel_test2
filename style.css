@@ -8,20 +8,6 @@ body {
     font-weight: 400;
 }
 
-footer {
-    background-color: #005281;
-}
-
-footer a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.5rem;
-    transition: color 0.3s ease;
-}
-
-footer a:hover {
-    color: #848484;
-}
 
 a,
 a:hover {
@@ -65,10 +51,33 @@ hr {
     line-height: 200%;
 }
 
+footer {
+    background-color: #005281;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #848484;
+}
+
 footer p {
     font-weight: 300;
     margin: 0;
     font-size: 0.8rem;
+}
+
+#footer-image img {
+    width: 100%;
+    height: auto;
+    /* background-image: url("img/join-section-1.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat; */
 }
 
 /* Navbar */

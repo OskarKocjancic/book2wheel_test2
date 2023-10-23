@@ -15,8 +15,9 @@
 }
 
 .card .img-wrapper {
-    width: 66%;
+    height: 50%;
 }
+
 
 .carousel-indicators{
     position: relative;
