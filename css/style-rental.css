@@ -1,0 +1,16 @@
+#rental {
+    background-image: url("../img/top-shape.svg");
+    background-size: 100% 100%;
+}
+
+#rental img {
+    width: 88%;
+}
+
+#dot {
+    position: absolute;
+    transform: translateY(50%);
+    left: -1rem;
+}
+
+

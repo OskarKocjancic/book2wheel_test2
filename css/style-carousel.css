@@ -1,5 +1,6 @@
 .carousel-inner {
     padding: 1em;
+
 }
 
 
@@ -85,7 +86,7 @@
 @media (max-width: 576px) {
     .carousel-item {
         margin-right: 0;
-        flex: 0 0 100%;
+        flex: 0 0 102%;
         display: block;
     }
     .card .card-text{
@@ -96,7 +97,7 @@
 @media (min-width: 576px) and (max-width: 768px) {
     .carousel-item {
         margin-right: 0;
-        flex: 0 0 50%;
+        flex: 0 0 51%;
         display: block;
     }
 
@@ -105,14 +106,21 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px){
+    .carousel-item {
+        margin-right: 0;
+        flex: 0 0 51%;
+        display: block;
+    }
+
+
+}
+@media (min-width: 992px) {
     .carousel-item {
         margin-right: 0;
         flex: 0 0 25%;
         display: block;
     }
 
-    #pressControls .carousel-item {
-        flex: 0 0 33.333333%;
-    }
+
 }

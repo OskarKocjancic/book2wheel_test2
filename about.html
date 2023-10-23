@@ -6,9 +6,9 @@
 		<title>Book2Wheel</title>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="style.css" />
-		<link rel="stylesheet" href="style-carousel.css" />
-		<link rel="stylesheet" href="style-about.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style-about.css" />
+		<link rel="stylesheet" href="css/style-carousel.css" />
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
 	</head>
@@ -54,7 +54,7 @@
 			<div class="container">
 				<div class="row justify-content-between">
 					<div class="col-lg-6">
-						<h1 class="">About us</h1>
+						<h1 class="ludicrous">About us</h1>
 						<p>Book2Wheel makes the process of renting or sharing 2-wheelers a breeze. We provide a secure and trustworthy platform that connects the renters and 2-wheeler owners. Our aim is to build a platform that is open to the global market. Anyone from any part of the world can share his motorbike or car with other people and earn extra income.</p>
 					</div>
 					<div class="col-lg-4 d-none d-lg-block">
@@ -122,13 +122,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
-						<img src="/img/computer_1.svg" alt="" class="img-fluid" />
+						<img src="./img/computer_1.svg" alt="" class="img-fluid" />
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section id="video" class="py-2">
+		<section id="video" class="py-2 mt-5">
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
@@ -244,64 +244,66 @@
 		<section id="join-us">
 			<div class="container-fluid">
 				<div class="row">
-					<img src="img/join-section-1.svg" alt="" />
+					<img src="./img/join-section-1.svg" alt="" />
 				</div>
 			</div>
 		</section>
 
 		<footer>
-			<div class="container">
-				<div class="row d-lg-none justify-content-center">
-					<div class="col-11 text-center">
-						<img src="img/logo-white.png" id="logo" class="img-fluid" />
-					</div>
-					<div class="col-11 social-media text-center">
-						<a href="https://www.facebook.com">
-							<i class="fab fa-facebook"></i>
-						</a>
-						<a href="https://www.instagram.com">
-							<i class="fab fa-instagram"></i>
-						</a>
-						<a href="https://twitter.com">
-							<i class="fab fa-twitter"></i>
-						</a>
-					</div>
-					<div class="col-11 links d-inline-flex justify-content-between">
-						<a href="link-to-some-page.html">RENTAL</a>
-						<a href="link-to-another-page.html">COMPANY</a>
-						<a href="link-to-another-page.html">COUNTRIES</a>
-						<a href="link-to-another-page.html">CONTACT</a>
-					</div>
-				</div>
-				<div class="row d-lg-inline-flex d-none w-100">
-					<div class="col-4 links d-inline-flex justify-content-between">
-						<a href="link-to-some-page.html">RENTAL</a>
-						<a href="link-to-another-page.html">COMPANY</a>
-						<a href="link-to-another-page.html">COUNTRIES</a>
-						<a href="link-to-another-page.html">CONTACT</a>
+			<div class="container-fluid d-none d-lg-block">
+				<div class="row d-lg-inline-flex justify-content-between align-items-center w-100">
+					<div class="col-3 links d-inline-flex justify-content-between align-items-center">
+						<a class="d-md-inline-block" href="link-to-some-page.html">RENTAL</a>
+						<a class="d-md-inline-block" href="link-to-another-page.html">COMPANY</a>
+						<a class="d-md-inline-block" href="link-to-another-page.html">COUNTRIES</a>
+						<a class="d-md-inline-block" href="link-to-another-page.html">CONTACT</a>
 					</div>
 					<div class="col-4 text-center">
 						<img src="img/logo-white.png" id="logo" class="img-fluid" />
 					</div>
-					<div class="col-4 social-media text-center">
-						<a href="https://www.facebook.com">
+					<div class="col-3 social-media d-inline-flex justify-content-end align-items-center gap">
+						<a class="pl-4" href="https://www.facebook.com">
 							<i class="fab fa-facebook"></i>
 						</a>
-						<a href="https://www.instagram.com">
+						<a class="pl-4" href="https://www.instagram.com">
 							<i class="fab fa-instagram"></i>
 						</a>
-						<a href="https://twitter.com">
+						<a class="pl-4" href="https://twitter.com">
 							<i class="fab fa-twitter"></i>
 						</a>
 					</div>
 				</div>
 			</div>
+			<div class="container d-lg-none">
+				<div class="row justify-content-center">
+					<div class="col-12 text-center">
+						<img src="img/logo-white.png" id="logo" class="img-fluid" />
+					</div>
+					<div class="col-12 social-media text-center">
+						<a href="https://www.facebook.com">
+							<i class="fab fa-facebook"></i>
+						</a>
+						<a href="https://www.instagram.com">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<a href="https://twitter.com">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</div>
+					<div class="col-8 links d-inline-flex justify-content-between align-items-center">
+						<a href="link-to-some-page.html">RENTAL</a>
+						<a href="link-to-another-page.html">COMPANY</a>
+						<a href="link-to-another-page.html">COUNTRIES</a>
+						<a href="link-to-another-page.html">CONTACT</a>
+					</div>
+				</div>
+			</div>
 		</footer>
-		<script src="script.js"></script>
+		<script src="js/script.js"></script>
 		<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-		<script src="carousel-script.js"></script>
+		<script src="js/carousel-script.js"></script>
 	</body>
 </html>

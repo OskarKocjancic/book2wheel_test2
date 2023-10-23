@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
+@font-face {
+    font-family: Ludicrous;
+    src: url('../font/Ludicrous.otf');
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     color: #848484;
@@ -7,6 +12,7 @@ body {
     background-size: cover;
     font-weight: 400;
 }
+
 
 
 a,
@@ -34,6 +40,11 @@ hr {
     border-top: 1px solid #F99746;
 }
 
+.ludicrous {
+    font-family: 'Ludicrous', sans-serif;
+    font-weight: 300;
+}
+
 
 #flag {
     height: 2rem;
@@ -47,8 +58,7 @@ hr {
 
 /* Footer */
 .links>a {
-    font-size: 1rem;
-    line-height: 200%;
+    font-size: 0.9rem;
 }
 
 footer {
@@ -80,6 +90,22 @@ footer p {
     background-repeat: no-repeat; */
 }
 
+#logo {
+    height: 4rem;
+}
+
+#social-media {
+    gap: 1rem;
+}
+
+#all-countries {
+    position: absolute;
+    bottom: -4rem;
+    font-size: 1rem;
+    line-height: 75%;
+
+}
+
 /* Navbar */
 .navbar {
     border-bottom: 1px solid #84848475;
@@ -101,4 +127,11 @@ footer p {
 .container {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+}
+
+@media (min-width: 576px) {
+    #all-countries {
+        font-size: 1.25rem;
+        line-height: 85%;
+    }
 }

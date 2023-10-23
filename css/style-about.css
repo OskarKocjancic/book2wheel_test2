@@ -1,6 +1,6 @@
 
 #about {
-    background-image: url("img/top-shape.svg");
+    background-image: url("../img/top-shape.svg");
     background-size: 100% 100%;
 }
 
@@ -10,13 +10,13 @@
 
 
 #story {
-    background-image: url("img/bottom-shape.svg");
+    background-image: url("../img/bottom-shape.svg");
     background-size: 100% 66%;
     background-repeat: no-repeat;
 }
 
 #story3 {
-    background-image: url("img/bottom-shape.svg");
+    background-image: url("../img/bottom-shape.svg");
     background-size: 100% 44%;
     background-repeat: no-repeat;
 }
@@ -52,18 +52,18 @@
 
 @media (min-width: 768px) {
     #join-us img {
-        content: url("img/join-section-2.svg");
+        content: url("../img/join-section-2.svg");
     }
 }
 
 @media (min-width: 992px) {
     #about {
-        background-image: url("img/top-shape-large.svg");
+        background-image: url("../img/top-shape-large.svg");
 
     }
 
     #join-us img {
-        content: url("img/join-section-3.svg");
+        content: url("../img/join-section-3.svg");
     }
 }
 
